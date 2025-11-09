@@ -192,14 +192,3 @@ Project layout (partial)
 - [requirements.txt](requirements.txt)
 - [db.sqlite3](db.sqlite3)
 
-Notes & tips
-
-- Keep `.env` out of version control (already present locally). Do not commit secrets.
-- If you change models, run `python manage.py makemigrations` then `migrate`.
-- Use the Django admin (create a superuser) to inspect models.
-
-If you want, I can:
-
-- Add a CONTRIBUTING.md with development guidelines.
-- Add Dockerfiles for both backend and frontend.
-- Generate example API docs for authentication endpoints found in [`authentication.views`](authentication/views.py).
